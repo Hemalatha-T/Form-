@@ -1,0 +1,393 @@
+/**{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+}
+
+.container{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('applicatin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+.content-box{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    text-align: center; 
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left{
+    height: 100%;
+    background-image: url('applicatin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right{
+    padding: 25px 40px;
+}
+
+h1{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem !important;
+}
+
+h1:after{
+    content: '';
+    position: absolute;
+    transform: translatex(-50%);
+    left: 50%;
+    bottom: 0;
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
+}
+
+h2{
+    font-size: 1.2rem !important;
+    margin-bottom: 5px;
+}
+
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.area{
+    min-height: 150px;
+}
+
+.error{
+    display: none;
+    color: red;
+    font-size: 0.9rem;
+}
+
+.error-text{
+    display: inline;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 880px){
+    .content-box{
+        grid-template-columns: 1fr;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+}
+
+.container{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('applicatin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+.content-box{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    text-align: center; 
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left{
+    height: 100%;
+    background-image: url('applicatin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.right{
+    padding: 25px 40px;
+}
+
+h1{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem !important;
+}
+
+h1:after{
+    content: '';
+    position: absolute;
+    transform: translatex(-50%);
+    left: 50%;
+    bottom: 0;
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
+}
+
+h2{
+    font-size: 1.2rem !important;
+    margin-bottom: 5px;
+}
+
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.area{
+    min-height: 150px;
+}
+
+.error{
+    display: none;
+    color: red;
+    font-size: 0.9rem;
+}
+
+.error-text{
+    display: inline;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 880px){
+    .content-box{
+        grid-template-columns: 1fr;
+    }
+}*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container:after {
+    content: '';
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('applicatin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: blur(30px);
+}
+
+.content-box {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    text-align: center; 
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    height: 70%;
+    background-image: url('applicatin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    display:flex ;
+    justify-content: center;
+    background-position:center;
+    text-align: center; 
+    align-items: center;
+}
+
+.right {
+    padding: 5px 35px;
+}
+
+h1 {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1.3rem !important;
+    font-weight: bold !important
+    ;
+}
+
+h1:after {
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
+}
+
+h2 {
+    font-size: 1.1rem !important;
+    margin-bottom: 5px;
+}
+
+.field {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.field:focus {
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.area {
+    min-height: 150px;
+}
+
+.error {
+    display: none;
+    color: red;
+    font-size: 0.9rem;
+}
+
+.error-text {
+    display: inline;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 880px) {
+    .content-box {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
